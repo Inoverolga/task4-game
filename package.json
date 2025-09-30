@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "name": "portal-gun-game",
+  "version": "1.0.0",
+  "description": "Rick and Morty",
+  "main": "startGame.js",
+  "scripts": {
+    "start": "node startGame.js"
+  },
+  "dependencies": {
+    "ascii-table": "^0.0.9",
+    "readline-sync": "^1.4.10",
+    "uuid": "^13.0.0"
+  }
+}
