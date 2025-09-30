@@ -21,9 +21,8 @@ export class MainGame {
 
       this.stat.addRoundResult(result.rickWon, result.rickSwitched);
 
-      const answer = this.userInput
-        .getUserInput("Morty: Do you want to play next round? (yes/exit) ")
-        .toLowerCase();
+      print("Morty: Do you want to play next round? (yes/exit)");
+      const answer = this.userInput.getUserInput("").toLowerCase();
       playAgain = answer === "yes";
     }
 
